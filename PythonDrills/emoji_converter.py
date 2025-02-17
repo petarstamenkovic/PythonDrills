@@ -1,4 +1,4 @@
-# simple drill that converts emojis into real ones using function
+# Simple drill that converts emojis into real ones using function
 
 emojis = {
     ":)" : "😊",

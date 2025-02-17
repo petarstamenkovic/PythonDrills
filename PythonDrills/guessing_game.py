@@ -1,3 +1,5 @@
+# Simple Python drill that works with while loops and breaking out of them
+
 secret_number = 9
 error = 0
 

@@ -1,4 +1,4 @@
-# simple python drill that uses dictionary to translate number into words
+# Simple python drill that uses dictionary to translate number into words
 # example: 123 -> one two three 
 numbers = {
     "0" : "zero",

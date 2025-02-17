@@ -76,17 +76,20 @@ while i <= 5:
 print("Done")
 """
 
-# For loop
+# For loop - Indexable For loop that can have both index and symbol that are incrementing
 """
 for item in ['John', 'Sarah', 'Jack']: # here can be anything, string,char,int...
     print(item)
 
 for item in range(10): # also can , range(5,10) , range(5,10,2) where 2 is incrementation value
     print(item)
-"""
+
+s = "HelloWorld"
+for i, letter in enumerate(s):
+    print(f'Index: {i} Letter: {letter}')
 
 # Nested loops - example - print out coordinates and challenge 1
-
+"""
 """
 for x in range(4):
     for y in range(4): 

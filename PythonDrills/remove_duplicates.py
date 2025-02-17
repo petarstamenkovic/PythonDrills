@@ -1,3 +1,5 @@
+# Simple Python drill that removes the duplicated from a given list
+
 numbers = [1,3,4,55,1,3,57,9,0]
 print(f"Original list: {numbers}")
 

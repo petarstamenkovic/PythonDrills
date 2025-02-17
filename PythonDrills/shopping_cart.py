@@ -1,4 +1,4 @@
-# simple python drill that calculates the sum of the given list
+# Simple python drill that calculates the sum of the given list
 
 prices = [10,20,30] 
 total = 0
