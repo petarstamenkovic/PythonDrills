@@ -1,0 +1,5 @@
+Python drills and questions found on the way
+
+1. How to easily remove a charachter from a string, without using a for loop?
+	For example, float(d) for d = $50.00 will create an error since the dollar sign is critical. We use following method to remove it:
+		d2 = d.replace("$","").strip() in case there are some blank spaces to remove aswell
