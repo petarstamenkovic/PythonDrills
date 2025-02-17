@@ -27,10 +27,12 @@ predictions = model.predict(X_test)                 # This is a general way of u
 
 score = accuracy_score(y_test, predictions)         # This is a function that calculates the accuracy of a ML model
 
-tree.export_graphviz(model, out_file='music-recommender.dot',
-                     feature_names=['age', 'gender'],
-                     class_names=sorted(y.unique()), # Class of a node
-                     label='all',
-                     rounded=True,
-                     filled=True) 
+# Function that draws out a graphic representaion of a decision tree
+
+# tree.export_graphviz(model, out_file='music-recommender.dot',
+#                      feature_names=['age', 'gender'],
+#                      class_names=sorted(y.unique()), # Class of a node
+#                      label='all',
+#                      rounded=True,
+#                      filled=True) 
 
